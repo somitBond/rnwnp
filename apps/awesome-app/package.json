@@ -1,0 +1,16 @@
+{
+  "name": "awesome-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react-native": "*",
+    "react": "*",
+    "@testing-library/react-native": "*",
+    "@testing-library/jest-native": "*",
+    "@testing-library/react": "*",
+    "react-native-paper": "*",
+    "@react-navigation/material-bottom-tabs": "*",
+    "react-native-vector-icons": "*",
+    "@react-navigation/native": "*"
+  }
+}

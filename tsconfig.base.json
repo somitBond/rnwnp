@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@acme/ui-heading": ["libs/ui-heading/src/index.ts"],
+      "@acme/features/screens/music": [
+        "libs/features/screens/music/src/index.ts"
+      ],
+      "@acme/features/screens/album": [
+        "libs/features/screens/album/src/index.ts"
+      ],
+      "@acme/features/screens/recent": [
+        "libs/features/screens/recent/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
