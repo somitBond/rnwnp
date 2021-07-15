@@ -16,9 +16,9 @@ export function App() {
           `}</style>
         ) : null}
           <View style={styles.box}>
-          <UiHeading text="Hey! React Native Web." />
-          <Text style={styles.text}>This is a demo page.</Text>
-        </View>
+            <UiHeading text="Hey! React Native Web." />
+            <Text style={styles.text}>This is a demo page.</Text>
+          </View>
         </React.Fragment>
       </PaperProvider>
   );
